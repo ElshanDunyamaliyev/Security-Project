@@ -3,3 +3,14 @@
 #    user:
 #      name: user
 #      password: 12345
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security
+    password: postgres
+    username: postgres
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
