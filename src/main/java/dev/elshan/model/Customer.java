@@ -12,16 +12,6 @@ public class Customer{
         private String pwd;
         private String role;
 
-        public Customer() {
-        }
-
-        public Customer(Integer id, String email, String pwd, String role) {
-                this.id = id;
-                this.email = email;
-                this.pwd = pwd;
-                this.role = role;
-        }
-
         public Integer getId() {
                 return id;
         }

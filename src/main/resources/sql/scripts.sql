@@ -16,7 +16,7 @@ insert into users values('salam','12345','1');
 insert into authorities values('salam','write');
 
 CREATE TABLE customer (
-                       id int NOT NULL PRIMARY KEY,
+                       id int PRIMARY KEY,
                        email VARCHAR NOT NULL,
                        pwd VARCHAR NOT NULL,
                        role VARCHAR NOT NULL
