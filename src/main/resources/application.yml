@@ -1,9 +1,3 @@
-#spring:
-#  security:
-#    user:
-#      name: user
-#      password: 12345
-
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/security
@@ -16,3 +10,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+  app:
+      jwtSecret: mySecretKey1239234@#%$^$!@
+      jwtExpirationMs: 99999999999999999999999999999999
